@@ -1,0 +1,47 @@
+body, html {
+  height: 100%; }
+
+.background {
+  background: url("../../img/fog.jpg");
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+
+a:visited {
+  color: #494949; }
+
+.links {
+  text-align: center;
+  color: gainsboro;
+  font-size: 1.5rem;
+  font: "Playfair Display", serif;
+  list-style-type: none;
+  padding-top: 1rem;
+  padding-bottom: 3.5rem; }
+
+h1 {
+  font: 7rem/9.3125rem "Playfair Display", serif;
+  letter-spacing: -8px;
+  padding-top: 13rem;
+  text-align: center;
+  background: linear-gradient(gainsboro, #3b3b3b);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+a img {
+  padding-top: 2.5rem;
+  width: 11rem;
+  height: 5rem;
+  display: block;
+  margin-left: auto;
+  margin-right: auto; }
+
+p {
+  font: 1.5rem "Playfair Display", serif;
+  color: gainsboro; }
+
+.twitter {
+  padding-top: 3rem; }
+
+/*# sourceMappingURL=style.css.map */
