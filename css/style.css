@@ -8,28 +8,42 @@ body, html {
   background-repeat: no-repeat;
   background-size: cover; }
 
-a:visited {
-  color: #494949; }
+#menu {
+  position: absolute;
+  width: 100%;
+  text-align: center; }
 
-.links {
-  text-align: center;
+#menu ul {
+  font: 1rem "Playfair Display", serif;
   color: gainsboro;
+  margin: 0;
+  padding: 0;
+  display: inline-block; }
+
+#menu ul li {
+  float: left;
+  margin: 15px;
   font-size: 1.5rem;
-  font: "Playfair Display", serif;
   list-style-type: none;
-  padding-top: 1rem;
-  padding-bottom: 3.5rem; }
+  padding-top: 1rem; }
+
+a, a:link, a:visited, a:focus, a:hover, a:active {
+  text-decoration: none;
+  font: "Playfair Display", serif;
+  color: #363636; }
 
 .name h1 {
+  margin-top: 0px;
   font: 7rem/9.3125rem "Playfair Display", serif;
   letter-spacing: -8px;
+  padding-top: 13rem;
   text-align: center;
   background: linear-gradient(gainsboro, #3b3b3b);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent; }
 
 a img {
-  padding-top: 2.5rem;
+  padding-top: 14rem;
   width: 11rem;
   height: 5rem;
   display: block;
@@ -37,11 +51,22 @@ a img {
   margin-right: auto; }
 
 p {
+  margin-top: 0px;
   font: 1.5rem "Playfair Display", serif;
-  color: gainsboro; }
+  color: gainsboro;
+  padding-top: 9rem; }
 
 .twitter {
-  padding-top: 3rem; }
+  padding-top: 4rem; }
+
+#footer p {
+  font: 0.75rem "Playfair Display", serif;
+  color: gainsboro;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center; }
 
 /* For mobile phones: */
 [class*="col-"] {
