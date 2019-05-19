@@ -87,7 +87,7 @@ h2 {
   font: 1.5rem $font-family;
   color: $font-color;
   text-align: center;
-  padding-bottom: 3rem;
+  padding-bottom: 4rem;
 }
 
 @media screen and (max-width: 800px) {
@@ -116,14 +116,14 @@ p {
 
 .gmail img{
   margin-top: 0px;
-  padding-top: 0rem  !important;
-  padding-bottom: 0rem !important;
+  padding-top: 0;
+  padding-bottom: 0;
   -webkit-filter: grayscale(100%);
   filter: grayscale(100%);
   opacity: .65;
 }
 
-#footer p {
+.footer p {
   font: .45rem $font-family;
   color: $font-color;
   position: fixed;
@@ -131,4 +131,6 @@ p {
   bottom: 0;
   width: 100%;
   text-align: center;
+  padding-top: 0;
+  padding-bottom: 0;
 }
